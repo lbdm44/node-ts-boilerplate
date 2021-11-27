@@ -13,7 +13,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint', 'node', 'mocha', 'prettier'],
+  plugins: ['@typescript-eslint', 'jest', 'node', 'prettier'],
   rules: {
     'node/no-missing-import': 'off',
     'node/no-unsupported-features': 'off',
