@@ -1,11 +1,10 @@
-import { strictEqual } from 'assert';
 import index from './index';
 
 describe('Typescript usage suite', () => {
   it('should be able to execute a test', () => {
-    strictEqual(true, true);
+    expect(true).toBe(true);
   });
   it('should return expected string', () => {
-    strictEqual(index('incoming'), 'incoming-static-v2');
+    expect(index('incoming')).toBe('incoming-static-v2');
   });
 });
